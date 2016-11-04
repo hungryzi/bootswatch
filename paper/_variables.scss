@@ -15,11 +15,11 @@ $gray:                   #666 !default;
 $gray-light:             #bbb !default;
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #2196F3 !default;
-$brand-success:         #4CAF50 !default;
-$brand-info:            #9C27B0 !default;
-$brand-warning:         #ff9800 !default;
-$brand-danger:          #e51c23 !default;
+$brand-primary:         #00bbf1 !default;
+$brand-success:         #25be53 !default;
+$brand-info:            #3c07b0 !default;
+$brand-warning:         #ffc627 !default;
+$brand-danger:          #cb3a1c !default;
 
 
 //== Scaffolding
@@ -43,13 +43,13 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          13px !default;
+$font-size-base:          16px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
