@@ -364,6 +364,7 @@ $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
+$navbar-sidebar-width:            225px !default;
 
 $navbar-default-color:             $gray-light !default;
 $navbar-default-bg:                #fff !default;
@@ -396,7 +397,7 @@ $navbar-inverse-bg:                         $brand-primary !default;
 $navbar-inverse-border:                     transparent !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($brand-primary, 30%) !default;
+$navbar-inverse-link-color:                 lighten($brand-primary, 40%) !default;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
